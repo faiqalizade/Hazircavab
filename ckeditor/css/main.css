@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.browserinfo{
+  margin-top: 30%;
+  border-top: 2px solid rgb(215, 215, 215);
+}
+.browserinfo , .ipinfo , .osinfo{
+  text-align: center;
+  color: rgb(0, 113, 195);
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 2.2em;
+}
+.osinfo{
+  border-bottom: 2px solid rgb(215, 215, 215);
+}
+.loader{
+  margin-left: 32%;
+  margin-top: 18%;
+  position: absolute;
+  width: 35%;
+}

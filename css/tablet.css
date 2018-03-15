@@ -1,0 +1,113 @@
+.giris_input{
+		background-size: 13px;
+}
+#userimg{
+	float: none;
+}
+.client{
+	text-align: center;
+}
+#ready_user{
+	width: 22.7%;
+}
+#ready_content{
+	width: 75.5%;
+}
+#ready_content ul{
+	width:85%;
+}
+aside{
+	width: 40%;
+}
+#sidebarh{
+	width: 17%;
+}
+.h1copy{
+	font-size: 1.4em;
+}
+.qeydiyyat_div{
+	width: 22%;
+}
+.client_logout{
+	float: none;
+}
+.rengli{
+	font-size: 1.1em;
+}
+.text{
+	font-size: 1em;
+}
+aside h3{
+	font-size: 1.2em;
+}
+aside h1{
+	font-size: 1.2em;
+}
+article .servicestext{
+	font-size: 0.7em;
+}
+#sidebarh{
+	font-size: 1.3em;
+}
+article .zaqolovok{
+	font-size: 1.1em;
+}
+	/*header*/
+	#logohead{
+			margin-left: 0;
+			float: left;
+			margin-top: 0;
+	}
+	header{
+			background-color: #2c3e50;
+			padding: 2% 3% 2% 4%;
+			width: 93%;
+			border-bottom: solid 4px #e2e2e2;
+	}
+	menu{
+			border: none;
+			float: right;
+			text-align: none;
+			letter-spacing: -0.25em;
+			margin-top: 2.4%;
+			margin-right:12%;
+	}
+	menu li:hover{ box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+
+	/*content and sidebar*/
+	.servicestext{
+			font-size: 1em;
+	}
+article ul li a { font-size: 0.8em; }
+#sinif:hover{ font-size: 0.8em; }
+article{ width: 21%; }
+#sidebarh{ font-size: 1.6em; }
+.openedtext{
+			text-align: center;
+			float: left;
+			width: 100%;
+			font-size: 1.2em;
+	}
+	/*footer*/
+		#footerlogo{
+				width: 6%;
+				height: 6%;
+		}
+		#het{ font-size: 1.7em; }
+		footer{
+				text-align: center;
+				border-color: #2c3e50;
+				padding: 2%;
+				width: 96%;
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+		}
+		/*Contact page*/
+		#contact{
+				margin-top: 20%;
+				margin-bottom: 15%;
+		}
+		#copypage{
+				width: 60%;
+				margin-left: 16%;
+		}

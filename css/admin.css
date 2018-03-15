@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*adminpanel*/
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body,html {
+  height: 100%;
+}
+#adminlogin{
+  text-align: center;
+  margin-top: 25%;
+}
+#login, #password{
+  height: 20px;
+  font-size: 1em;
+  display: block;
+  margin: auto;
+}
+label {
+  font-size: 1.5em;
+}
+#loginerrors{
+  display: block;
+  width: 100%;
+  font-size: 2em;
+  color: red;
+  margin-top: 5%;
+  text-align: center;
+}
+#logo{
+  width: 6%;
+  height: 8%;
+  float: left;
+}
+
+
+/*header*/
+header{
+  width: 98%;
+  background-color: #2c3e50;
+  padding: 1%;
+  float: left;
+
+  border-bottom: solid 4px #E9EBEC;
+}
+#text{
+  font-family: Poppins;
+  font-size: 2.1em;
+  font-weight: bold;
+  color: white;
+  float: left;
+  margin-left: 36%;
+  margin-top: 1%;
+
+}
+#name{
+  color: white;
+  font-family: Fresca;
+  font-size: 1.4em;
+  float: right;
+  margin-top: 2%;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content{
+    height: 100%;
+}
+
+/*sidebar*/
+#sidebar{
+  width: 18%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: #485766;
+  float: left;
+  position: fixed;
+  height: 100%;
+  border-right: #E9EBEC solid 4px;
+
+}
+
+h2{
+  font-size: 1.5em;
+  color: white;
+  font-family: Poppins;
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+ul>li>ul{
+  position: absolute;
+  opacity: 0;
+  transition: 1s opacity;
+  top: -999em;
+  box-shadow:  5px 0 10px rgba(0, 0, 0, 0.5);
+}
+.li {
+  color: white;
+  font-family: Fresca;
+  font-size: 1.2em;
+  cursor: pointer;
+  position: relative;
+  padding: 1.5% 10%;
+  border-top: 2px solid #F3F3F3;
+  transition: 1s all;
+}
+.li:hover{
+  background-color: #F3F3F3;
+  color: #2c3e50;
+  padding-left: 12%;
+}
+.li:last-child{
+  border-bottom: 2px solid #F3F3F3;
+}
+.li:nth-child(5){
+  border-bottom: 2px solid #F3F3F3;
+  margin-bottom: 10%;
+}
+ul li:hover ul{
+    top: -6%;
+    opacity: 1;
+    position: relative;
+}
+.li1 {
+  cursor: pointer;
+  background-color: #485766;
+  padding: 3% 20% 3% 24%;
+  border-bottom: 1px solid #F3F3F3;
+  border-top: 1px solid #F3F3F3;
+  transition: 0.4s padding;
+}
+.li1 a {
+  color: white;
+}
+.li1:hover{
+  background-color: #F3F3F3;
+  padding-left: 26%;
+  padding-right: 18%;
+}
+.li1:hover a{
+    color: #2c3e50;
+}
+ul{
+  list-style: none;
+}
+#cixis a{
+  color: #F3F3F3;
+  font-size: 1em;
+  font-family: Poppins;
+  transition: 400ms all;
+  width: 80%;
+  display: block;
+  padding: 0 10%;
+}
+#cixis:hover{
+  padding: 0 5%;
+  background-color: #F3F3F3;
+  }
+#cixis{
+  transition: 400ms all;
+  border-top: solid white 2px;
+  border-bottom: solid white 2px;
+}
+
+#cixis a:hover{
+
+  color: #2c3e50;
+}
+
+/*Admin Opened Sinif*/
+#admincontent{
+  margin-left: 19%;
+  width: 80%;
+  height: 99.3%;
+}
+#text1{
+  font-size: 1.6em;
+  font-family: Poppins;
+  font-weight: Bold;
+  color: #27ae60;
+  text-align: center;
+}
+.texts{
+  font-size: 1.4em;
+  font-family: Fresca;
+  color: #3498db;
+  margin-left: 2%;
+  float: left;
+  margin-top: 3%;
+}
+.table{
+  border-top: none;
+  border-bottom: dotted black 1px;
+  float: left;
+  width: 100%;
+}
+.table p{
+  color: #2980b9;
+  font-family: Fresca;
+}
+.table p:hover{
+  color: #9b59b6;
+  cursor: pointer;
+}
+.table p:last-child {
+  padding: 0 2%;
+}
+.class1{
+  float: right;
+  padding-right: 1%;
+}
+.class3,.class2{
+  float: left;
+}
+.class2{
+  text-align: center;
+  width: 50%;
+  position: absolute;
+}
+.class3{
+  padding: 0 1%;
+}
+#plus a{
+  float: right;
+  margin-right: 1.6%;
+  color: #3498db;
+  margin-top: 3%;
+}
+#add a{
+  float: right;
+  color: #3498db;
+  margin-right: 0.5%;
+}
+#admincontent form{
+  margin-top: 4%;
+}
+#admincontent form input{
+    text-align: center;
+    margin-top: 1%;
+    width: 30%;
+}
+#admincontent form input[type=submit]{
+  display: block;
+}
+#admincontent form input[type=file]{
+  display: none;
+}
+#admincontent form label{
+  text-align: center;
+  margin-top: 10px;
+  padding: 0.8% 7%;
+  display: block;
+  color: #2980b9;
+  font-size: 1.3em;
+  border: 1px solid silver;
+  background-color: #fbfbfb;
+  width: 16.5%;
+}
+/*Admin opened image*/
+#foropenedadminimage{
+  float: left;
+  margin-left: 18.3%;
+}
+#foropenedadminimage img{
+  width: 100%;
+}
+p{
+  font-family: Arial;
+}
+.imtahan_input{
+  padding: 0.2%;
+}
+#foto_upload{
+  display: none;
+}
+.imtahan_add{
+  margin-top: 1%;
+  text-align: center;
+}
+.foto_upload_label{
+  cursor: pointer;
+  margin: 0 1%;
+  padding: 0.1% 4.2%;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-family: arial;
+  border: 1px solid;
+}
+.imtahan_submit{
+  cursor: pointer;
+  border: none;
+  padding: 0.7% 4.5%;
+  background-color: #d7d7d7;
+  color: white;
+
+}
+.imtahansual{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
